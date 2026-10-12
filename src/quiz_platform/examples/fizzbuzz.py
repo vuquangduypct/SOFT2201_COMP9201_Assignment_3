@@ -26,3 +26,6 @@ class FizzBuzzGenerator:
 def fizzbuzz(n):
     generator = FizzBuzzGenerator()
     return generator.generate(n)
+
+print(fizzbuzz(100))  # Print the generated FizzBuzz sequence for visual inspection
+
